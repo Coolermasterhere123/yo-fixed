@@ -1,0 +1,12 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#fff;font-family:system-ui,sans-serif;height:100vh;overflow:hidden}
+.container{max-width:480px;margin:0 auto;padding:20px;height:100vh;display:flex;flex-direction:column;align-items:center;text-align:center}
+h1{font-size:4.8rem;font-weight:900;letter-spacing:-4px;margin:30px 0 10px}
+.subtitle{color:#888;margin-bottom:40px}
+.mic-container{flex:1;display:flex;align-items:center;justify-content:center}
+.mic-button{width:190px;height:190px;border-radius:50%;background:#1a1a1a;border:8px solid #444;color:#ff4444;font-size:5rem;transition:all .2s}
+.mic-button.recording{background:#ff4444;color:white;border-color:#ff6666;transform:scale(0.9);box-shadow:0 0 70px rgba(255,68,68,0.7)}
+.status{min-height:32px;margin:20px 0;font-size:1.15rem;color:#aaa}
+.transcript,.reply{width:100%;min-height:70px;margin:12px 0;padding:16px 20px;background:#111;border-radius:16px;font-size:1.18rem;line-height:1.45}
+.reply{border-left:5px solid #ff4444;background:#1a1a1a}
+.clear-btn{margin-top:10px;padding:12px 28px;background:#222;color:#999;border:none;border-radius:999px;font-size:1rem}
